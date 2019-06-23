@@ -1,0 +1,315 @@
+[23-Jun-2019 03:34:24 UTC] SQLSTATE[HY000] [2002] Connection refused
+[23-Jun-2019 03:39:33 UTC] 
+[23-Jun-2019 03:42:42 UTC] Password too short! 0
+[23-Jun-2019 03:42:58 UTC] An exception has been thrown during the rendering of a template ("SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'test.stm.created_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by") in "mod_index_dashboard.phtml" at line 29.
+[23-Jun-2019 03:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 03:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 03:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 03:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 03:50:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 03:53:29 UTC] Domain s is not valid 0
+[23-Jun-2019 03:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 03:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 03:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 03:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 03:55:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:00:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:05:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:05:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:05:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:05:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:05:01 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:20:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:23:07 UTC] 8 Undefined index: recurrent /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/Custom.php 71
+[23-Jun-2019 04:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:25:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:30:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:35:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:40:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:40:06 UTC] 
+[23-Jun-2019 04:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:45:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:50:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 04:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 04:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 04:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 04:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 04:55:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:00:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:02:00 UTC] Order #1 has no active service
+[23-Jun-2019 05:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:05:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:10:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:15:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:15:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:15:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:15:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:15:01 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:20:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:23:26 UTC] Order #1 has no active service
+[23-Jun-2019 05:23:37 UTC] 8 Undefined index: recurrent /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/Custom.php 71
+[23-Jun-2019 05:23:58 UTC] Order #1 has no active service
+[23-Jun-2019 05:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:25:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:29:58 UTC] 8 Undefined index: recurrent /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/Custom.php 71
+[23-Jun-2019 05:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:30:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:35:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:40:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:40:18 UTC] 
+[23-Jun-2019 05:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:45:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:50:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 05:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 05:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 05:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 05:55:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 05:55:28 UTC] An exception has been thrown during the rendering of a template ("Payment gateway PayPalCustom was not found") in "mod_invoice_gateways.phtml" at line 31.
+[23-Jun-2019 05:57:46 UTC] An exception has been thrown during the rendering of a template ("Payment gateway class Payment_Adapter_Payment_Adapter_PayLane was not found") in "mod_invoice_gateways.phtml" at line 31.
+[23-Jun-2019 05:57:54 UTC] Gateway not found
+[23-Jun-2019 05:57:56 UTC] Gateway not found
+[23-Jun-2019 05:59:19 UTC] An exception has been thrown during the rendering of a template ("Payment gateway class Payment_Adapter_Payment_Adapter_PayLane was not found") in "mod_invoice_gateways.phtml" at line 31.
+[23-Jun-2019 06:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:00:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:03:45 UTC] Order #1 has no active service
+[23-Jun-2019 06:03:52 UTC] 8 Undefined index: recurrent /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/Custom.php 71
+[23-Jun-2019 06:04:11 UTC] Order #1 has no active service
+[23-Jun-2019 06:04:12 UTC] Order #1 has no active service
+[23-Jun-2019 06:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:05:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:10:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:15:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:18:39 UTC] Order #1 has no active service
+[23-Jun-2019 06:19:11 UTC] Only pending setup or failed orders can be activated
+[23-Jun-2019 06:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:20:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:25:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:29:40 UTC] 8 Undefined index: txn_id /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 272
+[23-Jun-2019 06:29:40 UTC] 8 Undefined index: payment_status /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 273
+[23-Jun-2019 06:29:40 UTC] 8 Undefined index: txn_type /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 274
+[23-Jun-2019 06:29:40 UTC] 8 Undefined index: mc_gross /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 275
+[23-Jun-2019 06:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:30:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:30:47 UTC] Order #2 has no active service
+[23-Jun-2019 06:32:22 UTC] Order #2 has no active service
+[23-Jun-2019 06:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:35:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:35:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:40:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:40:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:42:37 UTC] 
+[23-Jun-2019 06:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:45:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:45:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:46:16 UTC] Can not checkout empty cart. 0
+[23-Jun-2019 06:47:22 UTC] Order #3 has no active service
+[23-Jun-2019 06:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:50:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:50:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:50:17 UTC] Order #3 has no active service
+[23-Jun-2019 06:50:18 UTC] Order #3 has no active service
+[23-Jun-2019 06:51:31 UTC] Order #3 has no active service
+[23-Jun-2019 06:51:33 UTC] Order #3 has no active service
+[23-Jun-2019 06:51:35 UTC] Order #3 has no active service
+[23-Jun-2019 06:51:40 UTC] Order #3 has no active service
+[23-Jun-2019 06:53:55 UTC] Order #3 has no active service
+[23-Jun-2019 06:54:45 UTC] Order #3 has no active service
+[23-Jun-2019 06:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 06:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 06:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 06:55:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 06:55:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 06:55:56 UTC] Order #3 has no active service
+[23-Jun-2019 06:55:57 UTC] Order #3 has no active service
+[23-Jun-2019 06:56:29 UTC] 8 Undefined index: amount /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 208
+[23-Jun-2019 06:56:29 UTC] 8 Undefined index: currency /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 210
+[23-Jun-2019 06:56:29 UTC] 8 Undefined index: transaction_description /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 212
+[23-Jun-2019 06:56:29 UTC] 8 Undefined index: name /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 219
+[23-Jun-2019 06:56:29 UTC] 8 Undefined index: address /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 225
+[23-Jun-2019 06:57:02 UTC] 8 Undefined index: amount /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 208
+[23-Jun-2019 06:57:02 UTC] 8 Undefined index: currency /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 210
+[23-Jun-2019 06:57:02 UTC] 8 Undefined index: transaction_description /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 212
+[23-Jun-2019 06:57:02 UTC] 8 Undefined index: name /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 219
+[23-Jun-2019 06:57:02 UTC] 8 Undefined index: address /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 225
+[23-Jun-2019 06:57:02 UTC] 2 session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php:71) /Applications/MAMP/htdocs/BoxBilling/bb-library/Box/Session.php 37
+[23-Jun-2019 06:57:46 UTC] Order #3 has no active service
+[23-Jun-2019 06:57:52 UTC] 2 session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayPalEmail.php:62) /Applications/MAMP/htdocs/BoxBilling/bb-library/Box/Session.php 37
+[23-Jun-2019 06:58:34 UTC] Order #3 has no active service
+[23-Jun-2019 06:58:38 UTC] Order #3 has no active service
+[23-Jun-2019 06:58:43 UTC] 8 Undefined index: amount /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 207
+[23-Jun-2019 06:58:43 UTC] 8 Undefined index: currency /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 209
+[23-Jun-2019 06:58:43 UTC] 8 Undefined index: transaction_description /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 211
+[23-Jun-2019 06:58:43 UTC] 8 Undefined index: name /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 218
+[23-Jun-2019 06:58:43 UTC] 8 Undefined index: address /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 224
+[23-Jun-2019 07:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 07:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 07:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 07:00:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 07:00:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 07:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 07:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 07:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 07:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 07:05:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 07:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 07:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 07:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 07:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 07:10:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 07:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 07:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 07:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 07:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 07:15:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 07:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 07:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 07:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 07:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 07:20:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 07:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 07:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 07:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 07:25:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 07:25:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 07:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 07:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 07:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 07:30:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 07:30:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 10:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 10:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 10:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 10:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 10:20:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 10:25:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 10:25:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 10:25:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 10:25:01 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 10:25:01 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 11:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 11:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 11:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 11:05:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 11:05:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 11:05:08 UTC] Order #3 has no active service
+[23-Jun-2019 11:05:11 UTC] 
+[23-Jun-2019 11:09:14 UTC] 8 Undefined index: amount /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 207
+[23-Jun-2019 11:09:14 UTC] 8 Undefined index: currency /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 209
+[23-Jun-2019 11:09:14 UTC] 8 Undefined index: transaction_description /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 211
+[23-Jun-2019 11:09:14 UTC] 8 Undefined index: name /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 218
+[23-Jun-2019 11:09:14 UTC] 8 Undefined index: address /Applications/MAMP/htdocs/BoxBilling/bb-library/Payment/Adapter/PayLane.php 224
+[23-Jun-2019 11:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 11:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 11:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 11:10:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 11:10:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 11:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 11:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 11:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 11:15:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 11:15:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
+[23-Jun-2019 11:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; StringReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 48
+[23-Jun-2019 11:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; FileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 84
+[23-Jun-2019 11:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; CachedFileReader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/streams.php 145
+[23-Jun-2019 11:20:00 UTC] 8192 Methods with the same name as their class will not be constructors in a future version of PHP; gettext_reader has a deprecated constructor /Applications/MAMP/htdocs/BoxBilling/bb-library/php-gettext/gettext.php 36
+[23-Jun-2019 11:20:00 UTC] SQLSTATE[HY000] [2002] No such file or directory
