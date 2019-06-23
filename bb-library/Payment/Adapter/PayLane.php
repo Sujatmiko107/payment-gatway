@@ -75,12 +75,8 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
     {
         $invoice = $api_admin->invoice_get(array('id'=>$invoice_id));
         $data = array();
-        if($subscription) {
-            $data = $this->getSubscriptionFields($invoice);
-        } else {
-            $data = $this->getOneTimePaymentFields($invoice);
-        }
-        $url = $this->config['notify_url'];
+        $data = $this->getOneTimePaymentFields($invoice);
+        $url = $this->serviceUrl();
         return $this->_generateForm($url, $data);
     }
 
@@ -88,7 +84,6 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
     {
         if (isset($_POST['sale'])) {
             $array = $data['post'];
-            
             $client = new PayLaneRestClient($this->config['merchant_id'], $this->config['password_api']);
 
             try {
@@ -98,13 +93,9 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
             }   
 
             if ($client->isSuccess()) {
-                // if($this->config['test_mode']) {
-                //     print_r(json_encode($status)); die();
-                // }
 
                 $ips = $status;
                 $ipn = $data['post'];
-
                 $tx = $api_admin->invoice_transaction_get(array('id'=>$id));
                 
                 if(!$tx['invoice_id']) {
@@ -129,7 +120,6 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
 
                 $invoice = $api_admin->invoice_get(array('id'=>$data['get']['bb_invoice_id']));
                 $client_id = $invoice['client']['id'];
-
                 if($ips['success'] == true) {
                     $bd = array(
                         'id'            =>  $client_id,
@@ -168,6 +158,11 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
         exit;
     }
 
+    private function serviceUrl()
+    {
+        return $this->config['notify_url'];
+    }
+    
     private function moneyFormat($amount, $currency)
     {
         //HUF currency do not accept decimal values
@@ -225,37 +220,42 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
                             <label>Email:</label>
                             <input type="text" required name="customer[email]" value="'.$data['email'].'">
                             <label>IP:</label>
-                            <input type="text" required name="customer[ip]" value="127.0.0.1">
+                            <input type="text" required name="customer[ip]" value="">
                             <label>Address:</label>
                             <input type="text" required name="customer[address][street_house]" value="'.$data['address'].'">
                             <label>City:</label>
                             <input type="text" required name="customer[address][city]" value="'.$data['city'].'">
                             <label>State:</label>
-                            <input type="text" required name="customer[address][state]" value="DC">
+                            <input type="text" required name="customer[address][state]" value="'.$data['state'].'">
                             <label>Zip:</label>
-                            <input type="text" required name="customer[address][zip]" value="14045">
+                            <input type="text" required name="customer[address][zip]" value="'.$data['zip'].'">
                             <label>Country Code:</label>
-                            <input type="text" required name="customer[address][country_code]" value="US">
+                            <input type="text" required name="customer[address][country_code]" value="'.$data['country_code'].'">
                         </fieldset>
                     </div>
                     <div class="col-4 col-s-12">
                         <fieldset class="scheduler-border">
                             <legend class="scheduler-border">Card:</legend>
                             <label>Card number:</label>
-                            <input type="text" required name="card[card_number]"  value="4111111111111111"  /><br>
+                            <input type="text" required name="card[card_number]"  value=""  /><br>
 
                             <label>Name on card:</label>
-                            <input type="text" required name="card[name_on_card]"  value="Name Test" /><br>
+                            <input type="text" required name="card[name_on_card]"  value="'.$data['name'].'" /><br>
 
                             <label>Expiration date:</label>
-                            <input type="text" required name="card[expiration_month]" value="12" />
-                            <input type="text" required name="card[expiration_year]" value="2019" /><br>
+                            <input type="text" required name="card[expiration_month]" value="" />
+                            <input type="text" required name="card[expiration_year]" value="" /><br>
 
                             <label>CVV/CVC number:</label>
-                            <input type="text" name="card[card_code]" value="123" /><br>
+                            <input type="text" name="card[card_code]" value="" /><br>
                         </fieldset>
                     </div>
                 </div>
+                    <input type="hidden" name="return" value="'.$this->config['return_url'].'" />
+                    <input type="hidden" name="cancel_return" value="'.$this->config['cancel_url'].'" />
+                    <input type="hidden" name="notify_url" value="'.$this->config['notify_url'].'" />
+                    <input type="hidden" name="redirect_url" value="'.$this->config['redirect_url'].'" />
+                    <input type="hidden" name="continue_shopping_url" value="'.$this->config['continue_shopping_url'].'" />
                     <input type="submit" id="paylane-submit" value="Submit" />
             </form>
         ';
@@ -301,56 +301,6 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
         return __('Payment for invoice :serie:id [:title]', $p);
     }
 
-    public function getSubscriptionFields(array $invoice)
-    {
-        $data = array();
-        $subs = $invoice['subscription'];
-
-        $data['item_name']          = $this->getInvoiceTitle($invoice);
-        $data['item_number']        = $invoice['nr'];
-        $data['no_shipping']        = '1';
-        $data['no_note']            = '1'; // Do not prompt payers to include a note with their payments. Allowable values for Subscribe buttons:
-        $data['currency_code']      = $invoice['currency'];
-        $data['return']             = $this->config['return_url'];
-        $data['cancel_return']      = $this->config['cancel_url'];
-        $data['notify_url']         = $this->config['notify_url'];
-        $data['business']           = $this->config['email'];
-
-        $data['cmd']                = '_xclick-subscriptions';
-        $data['rm']                 = '2';
-
-        $data['invoice_id']         = $invoice['id'];
-
-        // Recurrence info
-        $data['a3']                 = $this->moneyFormat($invoice['total'], $invoice['currency']); // Regular subscription price.
-        $data['p3']                 = $subs['cycle']; //Subscription duration. Specify an integer value in the allowable range for the units of duration that you specify with t3.
-
-        /**
-         * t3: Regular subscription units of duration. Allowable values:
-         *  D – for days; allowable range for p3 is 1 to 90
-         *  W – for weeks; allowable range for p3 is 1 to 52
-         *  M – for months; allowable range for p3 is 1 to 24
-         *  Y – for years; allowable range for p3 is 1 to 5
-         */
-        $data['t3']                 = $subs['unit'];
-
-        $data['src']                = 1; //Recurring payments. Subscription payments recur unless subscribers cancel their subscriptions before the end of the current billing cycle or you limit the number of times that payments recur with the value that you specify for srt.
-        $data['sra']                = 1; //Reattempt on failure. If a recurring payment fails, PayPal attempts to collect the payment two more times before canceling the subscription.
-        $data['charset']			= 'UTF-8'; //Sets the character encoding for the billing information/log-in page, for the information you send to PayPal in your HTML button code, and for the information that PayPal returns to you as a result of checkout processes initiated by the payment button. The default is based on the character encoding settings in your account profile.
-
-        //client data
-        $buyer = $invoice['buyer'];
-        $data['address1']			= $buyer['address'];
-        $data['city']				= $buyer['city'];
-        $data['email']				= $buyer['email'];
-        $data['first_name']			= $buyer['first_name'];
-        $data['last_name']			= $buyer['last_name'];
-        $data['zip']				= $buyer['zip'];
-        $data['state']				= $buyer['state'];
-        $data['bn']                             = "BoxBilling_SP";
-        return $data;
-    }
-
     public function getOneTimePaymentFields(array $invoice)
     {
         $data = array();
@@ -360,21 +310,13 @@ class Payment_Adapter_PayLane implements \Box\InjectionAwareInterface
         $data['transaction_description']    = $this->getInvoiceTitle($invoice);
 
         $buyer = $invoice['buyer'];
-
         $data['name']                       = $buyer['first_name'];
         $data['email']                      = $buyer['email'];
-        $data['ip']                         = "127.0.0.1";
         $data['address']                    = $buyer['address'];
         $data['city']                       = $buyer['city'];
         $data['state']                      = $buyer['state'];
         $data['zip']                        = $buyer['zip'];
-        $data['country_code']               = "USA";
-
-        $data['card_number']                = "4111111111111111";
-        $data['name_on_card']               = $buyer['first_name'];;
-        $data['expiration_month']           = "05";
-        $data['expiration_year']            = "2020";
-        $data['card_code']                  = "123";
+        $data['country_code']               = $buyer['country'];
         return $data;
     }
 }

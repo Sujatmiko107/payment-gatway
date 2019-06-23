@@ -59,7 +59,7 @@ class Payment_Adapter_PayPalEmail implements \Box\InjectionAwareInterface
     {
         $invoice = $api_admin->invoice_get(array('id'=>$invoice_id));
         $data = array();
-        var_dump($subscription);
+        
         if($subscription) {
             $data = $this->getSubscriptionFields($invoice);
         } else {
